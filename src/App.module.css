@@ -1,0 +1,19 @@
+.header {
+  text-align: center;
+  font-size: 42px;
+  text-shadow: 2px 2px black;
+  transition:all 0.3s ease;
+}
+
+.header-info {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  transition:all 0.3s ease;
+  animation: appear 3s normal;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

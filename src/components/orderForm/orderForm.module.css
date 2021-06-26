@@ -1,0 +1,63 @@
+.order-form-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: #2c3e50;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.order-form-box form div {
+    margin: 0 auto;
+    padding: 15px;
+}
+form {
+    width: 80%;
+    margin: 0 auto
+}
+
+.preparation-time, .order-form-name, .dish-type, .no_of_slices, .diameter, .slices_of_bread {
+    height: 10%;
+    font-size: 24px;
+}
+
+.no_of_slices, .slices_of_bread {
+    width: 20%;
+}
+
+.diameter {
+    width: 40%;
+}
+
+.submit-btn, .reset-btn {
+    width: fit-content;
+    height: 30px;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 1s;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    float: right;
+    margin: 5px;
+}
+
+.submit-btn {
+    background-color: #44bd32;
+}
+.reset-btn {
+    background-color: #3867d6;
+}
+.submit-btn:hover {
+    opacity: 1;
+}

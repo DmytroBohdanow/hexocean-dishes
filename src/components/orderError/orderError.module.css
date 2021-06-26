@@ -1,0 +1,14 @@
+.order-error-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: #c23616;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: large;
+    margin-bottom: 30px;
+    text-align: center;
+}
